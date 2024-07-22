@@ -1,0 +1,66 @@
+
+.mobile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    position: relative; 
+}
+
+
+.mobile-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.mobile-container img {
+    cursor: pointer;
+}
+
+
+.mobile-nav-links {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.mobile-nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-nav-links ul li {
+    margin: 10px 0;
+}
+
+.mobile-nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.moblie-contact-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff4400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.mobile-container.is-menu-clicked .mobile-nav-links {
+    display: block;
+}
