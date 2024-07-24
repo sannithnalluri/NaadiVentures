@@ -24,7 +24,7 @@ export default function Hompage() {
         </button>
     </div>
     <div className='hero-box'>
-        <h1>India's Early Growth Ventures</h1>
+        <h1>India&apos;s Early Growth Ventures</h1>
     </div>
     <div className='black-section'>
         <div className='section-content'>
