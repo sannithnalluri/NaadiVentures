@@ -7,7 +7,7 @@ export default function DesktopNavbar() {
     <div>
         <nav className='nav-container'>
             <div className='logo container'>
-                <Image src={require("../Assests/mainlogo.png")}/>
+                <Image src={require("../Assests/mainlogo.png")} alt='mainlogo'/>
             </div>
             <div className='nav-links'>
                 <ul>

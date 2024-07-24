@@ -46,14 +46,14 @@ export default function Hompage() {
         </div>
     </div>
     <div className='vector'>
-    <Image src={require("../Assests/orangevector.png")}
+    <Image src={require("../Assests/orangevector.png")} alt='vector-Image'
      />
     </div>
     <div className='black-section'>
         <div className='black-section-inside'>
 
         <div className='assest2'>
-            <Image src={require("../Assests/assest-2.png")} alt="Picture of the author"/>
+            <Image src={require("../Assests/assest-2.png")} alt="Picture of the assest"/>
         </div>
         
         <div className='section-content2'>
@@ -79,35 +79,35 @@ export default function Hompage() {
         <div className='service'>
             <div className='service-component'>
                 <div className='image-component'>
-                    <Image src={require("../Assests/company.png")}/>
+                    <Image src={require("../Assests/company.png")} alt='university png'/>
                     <h4>University Connectt</h4>
                 </div>
                 <hr className='vertical-line'/>
             </div>
             <div className='service-component'>
                 <div className='image-component'>
-                    <Image src={require("../Assests/company.png")}/>
+                    <Image src={require("../Assests/company.png")} alt='women png'/>
                     <h4>Women and Minority</h4>
                 </div>
                 <hr className='vertical-line'/>
             </div>
             <div className='service-component'>
                 <div className='image-component'>
-                    <Image src={require("../Assests/company.png")}/>
+                    <Image src={require("../Assests/company.png")} alt='Incubator png'/>
                     <h4>Incubator Connect</h4>
                 </div>
                 <hr className='vertical-line'/>
             </div>
             <div className='service-component'>
                 <div className='image-component'>
-                    <Image src={require("../Assests/company.png")}/>
+                    <Image src={require("../Assests/company.png")} alt='Global'/>
                     <h4>Global <br/> Connect</h4>
                 </div>
                 <hr className='vertical-line'/>
             </div>
             <div className='service-component'>
                 <div className='image-component'>
-                    <Image src={require("../Assests/company.png")}/>
+                    <Image src={require("../Assests/company.png")} alt='Smb'/>
                     <h4>SMB <br/>Connect</h4>
                 </div>
               
