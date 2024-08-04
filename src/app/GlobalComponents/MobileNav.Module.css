@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #000000;
     color: white;
     position: relative; 
 }
@@ -27,7 +27,7 @@
     top: 100%; 
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #000000;
     text-align: center;
     padding: 10px 0;
 }

@@ -1,0 +1,164 @@
+.OurFocusPage {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.FocusTag {
+  width: fit-content;
+  background-color: white;
+  color: orangered;
+  border-radius: 10px;
+  margin: 4rem 45%;
+  padding: 0.5rem;
+}
+
+.focus_content {
+  display: flex;
+  margin: 2rem 5rem;
+  color: white;
+  text-align: start;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.focus-content-1 {
+  margin: 2rem;
+  width: 55%;
+}
+
+.focus-image1 {
+  width: 45%;
+}
+
+.focus-image1 img {
+  border-radius: 10px;
+}
+
+.focus-content-1 p {
+  margin: 1rem 0px;
+}
+
+.focus-box {
+  width: 80vw;
+  background-color: rgba(36, 18, 10, 1);
+  color: white;
+  margin: 3rem 7rem;
+  padding: 2rem 1rem;
+}
+
+.focus-box h2 {
+  font-size: 32px;
+}
+
+.focus-box h3 {
+  font-size: 24px;
+}
+
+.focus-box button {
+  background-color: rgba(253, 81, 4, 1);
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+.heading h3 {
+  font-size: 32px;
+  color: white;
+  margin: 2rem;
+}
+
+.founder-image-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 3rem;
+  text-align: start;
+}
+
+.founder-image-container div {
+  margin: 1rem 2rem;
+}
+
+.founder-section h4 {
+  color: rgba(253, 81, 4, 1);
+  font-size: 12px;
+}
+
+.founder-section p {
+  color: white;
+}
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+  .FocusTag {
+    margin: 2rem auto;
+  }
+
+  .focus_content {
+    flex-direction: column;
+    margin: 1rem 1rem;
+  }
+
+  .focus-content-1, .focus-image1 {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .focus-box {
+    width: 95vw;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+
+  .heading h3 {
+    font-size: 24px;
+  }
+
+  .focus-box h2 {
+    font-size: 24px;
+  }
+
+  .focus-box h3 {
+    font-size: 20px;
+  }
+
+  .focus-box button {
+    width: 100%;
+  }
+
+  .founder-image-container {
+    flex-direction: column;
+    margin: 1rem 1rem;
+  }
+
+  .founder-image-container div {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .FocusTag {
+    margin: 2rem auto;
+  }
+
+  .focus_content {
+    margin: 1rem;
+  }
+
+  .focus-box {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .heading h3 {
+    font-size: 20px;
+  }
+
+  .focus-box h2 {
+    font-size: 20px;
+  }
+
+  .focus-box h3 {
+    font-size: 18px;
+  }
+}

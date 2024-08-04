@@ -2,15 +2,15 @@ import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react';
 
-export default function DesktopFooter() {
+export default function OrangeFooter() {
   return (
-    <div className='Desktop-Footer'>
+    <div className='Orange-Footer'>
         <div className='footer-logo-container'>
-            <Image src={require("../Assests/mainlogo.png")} alt='logo'/>
+            <Image src={require("../Assests/BlackLogo.png")} alt='logo'/>
         </div>
         <div className='footer-nav-links'>
             <ul>
-            <li><Link href='/'>Portfolio</Link></li>
+                <li><Link href='/'>Portfolio</Link></li>
                 <li><Link href='/OurFocus'>OurFocus</Link></li>
                 <li><Link href='/Founders'>Founders</Link></li>
                 <li><Link href='/Investors'>Investors</Link></li>

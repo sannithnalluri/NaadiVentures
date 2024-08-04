@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import "./Desktop.Module.css";
+import Link from 'next/link';
 
 export default function DesktopNavbar() {
   return (
@@ -11,15 +12,17 @@ export default function DesktopNavbar() {
             </div>
             <div className='nav-links'>
                 <ul>
-                    <li><a>Portfolio</a></li>
-                    <li><a>OurFocus</a></li>
-                    <li><a>Founders</a></li>
-                    <li><a>Investors</a></li>
-                    <li><a>Team</a></li>
-                    <li><a>News</a></li>
+                <li><Link href='/'>Portfolio</Link></li>
+                <li><Link href='/OurFocus'>OurFocus</Link></li>
+                <li><Link href='/Founders'>Founders</Link></li>
+                <li><Link href='/Investors'>Investors</Link></li>
+                <li><Link href='/Team'>Team</Link></li>
+                <li><Link href='/News'>News</Link></li>
                 </ul>
                 <button className='contact-button' >
+                    <Link href='/Contact'>
                     ContactUs
+                    </Link>
                 </button>
             </div>
         </nav>

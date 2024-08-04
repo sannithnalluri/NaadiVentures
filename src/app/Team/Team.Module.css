@@ -1,0 +1,136 @@
+.Team-page{
+    background-color: black;
+    text-align: center;
+}
+
+.tema-tag{
+    background-color: #ffe4c4;
+    color:#FD5104;
+    width: fit-content;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin: 2rem 48%;
+}
+.Teams h2{
+    color: white;
+    font-size: 32px;
+}
+
+
+.Teams-Container,.Teams-Container2{
+    width: 80vw;
+    background-color: rgba(25, 25, 25, 1);
+    margin: 4rem 10vw;
+    padding-top:4rem ;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+}
+
+.Teams-Container img ,.Teams-Container2 img{
+    width: 320px;
+    height: 360px;
+}
+.Text-Container{
+    background-color: rgba(30, 41, 59, 1);
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -5rem;
+    left: 2rem;
+}
+.Text-Container h1{
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+}
+.Text-Container h3{
+    font-size: 12px;
+    font-weight: 500;
+}
+.Text-Container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    padding: 10px;
+    align-items: center;
+    margin: 0px 15%;
+}
+.Text-Container ul li a img{
+    width: 18px;
+    height: auto;
+}
+
+.Vecotor{
+    width: 700px;
+    height: auto;
+    position: absolute;
+    top: 35rem;
+    left: -15rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .Teams h2 {
+      font-size: 28px;
+    }
+  
+    .Teams-Container, .Teams-Container2 {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .Text-Container {
+      width: 90%;
+      top: -3rem;
+      left: 0;
+      margin: auto;
+    }
+  
+    .Vecotor {
+      width: 500px;
+      top: 25rem;
+      left: -10rem;
+    }
+    .Teams-Container img ,.Teams-Container2 img{
+        width: 95vw;
+        height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Teams h2 {
+      font-size: 24px;
+    }
+  .Teams-Container ,.Teams-Container2{
+    background-color:rgba(240, 248, 255, 0);
+  }
+    .Text-Container h1 {
+      font-size: 20px;
+    }
+  
+    .Text-Container h3 {
+      font-size: 10px;
+    }
+  
+    .Text-Container ul {
+      width: 100%;
+      padding: 5px;
+    }
+  
+    .Text-Container ul li {
+      margin: 3px;
+    }
+  
+    .Vecotor {
+      width: 300px;
+      top: 20rem;
+      left: -15rem;
+    }
+  }

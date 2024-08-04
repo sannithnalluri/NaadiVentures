@@ -1,0 +1,166 @@
+.Investor_hero_section{
+    background-image: url("../Assests/Investorbg.jpeg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.Investor_hero_section h1{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin: .5rem 1rem ;
+}
+.leftarrow{
+    width: 40px;
+    height: 1.94px;
+    background: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Investor_Form_Section{
+    background: black;
+    padding-top: 5%;
+    display: flex;
+    flex: 2;
+}
+
+.vector_image{
+    width: 700px;
+    opacity:0.9;
+    position: relative;
+    left: -230px;
+}
+
+.main-logo{
+    margin-left: 10%;
+}
+
+.contactForm {
+    width: 50rem;
+    margin: auto;
+    padding: 16px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .formGroup {
+    margin-bottom: 16px;
+    flex: 1;
+    padding-right: 8px;
+  }
+  
+  .formGroup:last-child {
+    padding-right: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #303030;
+  }
+  
+  button {
+    width: fit-content;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff5500;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 2rem;
+  }
+
+  @media (max-width: 768px) {
+    .Investor_hero_section h1 {
+      font-size: 24px;
+      padding-bottom: 2rem;
+    }
+  
+    .heading h1 {
+      font-size: 28px;
+    }
+  
+    .Investor_Form_Section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .Vector_section {
+      margin-bottom: 20px;
+    }
+  
+    .Form_section {
+      width: 100%;
+      padding: 0 10px;
+    }
+  
+    .contactForm {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .row {
+      flex-direction: column;
+    }
+  
+    .formGroup {
+      width: 100%;
+      padding-right: 0;
+    }
+    .vector_image{
+        display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heading h1 {
+      font-size: 24px;
+    }
+  
+    .Investor_Form_Section {
+      padding-top: 2%;
+    }
+  
+    .vector_image {
+      max-width: 250px;
+    }
+  
+    .contactForm {
+      padding: 12px;
+    }
+  
+    button {
+      padding: 10px 1rem;
+    }
+
+    .vector_image{
+        display: none;
+    }
+  }

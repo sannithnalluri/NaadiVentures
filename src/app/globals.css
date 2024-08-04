@@ -31,3 +31,19 @@ body {
     text-wrap: balance;
   }
 }
+
+.Mobile{
+  display:none;
+}
+
+@media (max-width:765px) {
+  .Mobile{
+    display: block;
+  }
+
+  .desktop{
+    display: none;
+
+  }
+  
+}

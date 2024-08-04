@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
 import "./MobileNav.Module.css";
+import Link from 'next/link';
 
 export default function DesktopNavbar() {
     const [isMenuClicked, setIsMenuClicked] = useState(false);
@@ -20,15 +21,15 @@ export default function DesktopNavbar() {
                 {isMenuClicked && (
                     <div className='mobile-nav-links'>
                         <ul>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#ourfocus">Our Focus</a></li>
-                            <li><a href="#founders">Founders</a></li>
-                            <li><a href="#investors">Investors</a></li>
-                            <li><a href="#team">Team</a></li>
-                            <li><a href="#news">News</a></li>
+                <li><Link href='/'>Portfolio</Link></li>
+                <li><Link href='/OurFocus'>OurFocus</Link></li>
+                <li><Link href='/Founders'>Founders</Link></li>
+                <li><Link href='/Investors'>Investors</Link></li>
+                <li><Link href='/Team'>Team</Link></li>
+                <li><Link href='/News'>News</Link></li>
                         </ul>
                         <button className='moblie-contact-button'>
-                            Contact Us
+                          <Link href="/Contact">Contact Us</Link> 
                         </button>
                     </div>
                 )}

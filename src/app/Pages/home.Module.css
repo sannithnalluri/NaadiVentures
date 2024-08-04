@@ -67,6 +67,10 @@ ul li{
     margin: 5px;
 
 }
+.hero-box{
+    background-color: #0C0C0D;
+}
+
 .hero-box h1{
     background-color: #FD5104;
     color: white;
