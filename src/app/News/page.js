@@ -4,7 +4,7 @@ import Navmanger from '../GlobalComponents/Navmanger';
 import image1 from "../Assests/gridimage1.png"
 import Image from 'next/image';
 import OrangeFooter from '../GlobalComponents/OrangeFooter';
-import NewVector from "../Assests/NewsVector.svg";
+import NewVector from "../Assests/Newsvector.svg";
 import founderimages from "../Assests/founderimages.png";
 
 

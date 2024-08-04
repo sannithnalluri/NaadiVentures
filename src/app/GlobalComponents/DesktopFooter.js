@@ -5,7 +5,7 @@ import React from 'react';
 import twitter from "../Assests/Twitter.svg";
 import facebook from "../Assests/Facebook.svg";
 import instagram from "../Assests/Instagram.svg";
-import github from "../Assests/Github.svg";
+import github from "../Assests/GitHub.svg";
 import mainlogo from "../Assests/mainlogo.png";
 
 export default function DesktopFooter() {
