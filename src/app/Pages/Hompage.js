@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import "./home.Module.css"
 import Navmanger from '../GlobalComponents/Navmanger';
@@ -7,6 +9,8 @@ import assest1 from "../Assests/assest-1.jpeg"
 import assest2 from "../Assests/assest-2.png"
 import orangevector from "../Assests/orangevector.png"
 import companpng from "../Assests/company.png"
+import ScrollReveal from './ScrollReveal';
+import AnimatedText from './TextAnimation';
 
 
 
@@ -15,12 +19,19 @@ export default function Hompage() {
     <div>
     <div className='herosection'>
     <Navmanger/>
+    <AnimatedText>
     <h1>
         We Invest in Resilient  <span class="highlight">Founders Working</span> on Sustainable Impact
     </h1>
-<p>Our mission at Naandi Ventures is to back resilient founders on their transformative journey towards greatness. We understand that entrepreneurship is a path paved with obstacles, and we’re here to provide the support, resources, and mentorship needed to help you navigate and conquer those challenges. Your vision is our inspiration, and together, we’ll forge a path to success .</p>
+    </AnimatedText>
+    <AnimatedText>
 
-    <div className='hero-button'>
+<p>Our mission at Naandi Ventures is to back resilient founders on their transformative journey towards greatness. We understand that entrepreneurship is a path paved with obstacles, and we’re here to provide the support, resources, and mentorship needed to help you navigate and conquer those challenges. Your vision is our inspiration, and together, we’ll forge a path to success .</p>
+    </AnimatedText>
+    
+
+<AnimatedText>
+<div className='hero-button'>
         <button className='button_1'>
             Invest with Naandi
         </button>
@@ -32,6 +43,11 @@ export default function Hompage() {
     <div className='hero-box'>
         <h1>India&apos;s Early Growth Ventures</h1>
     </div>
+</AnimatedText>
+   
+
+    
+    <ScrollReveal>
     <div className='black-section'>
         <div className='section-content'>
             <h1>Who We Are</h1>
@@ -51,10 +67,14 @@ export default function Hompage() {
                     alt="Picture of the author"/>
         </div>
     </div>
+    </ScrollReveal>
     <div className='vector'>
     <Image src={orangevector} alt='vector-Image'
      />
     </div>
+
+
+    <ScrollReveal>
     <div className='black-section'>
         <div className='black-section-inside'>
 
@@ -77,9 +97,14 @@ export default function Hompage() {
         </div>
         
     </div>
+    </ScrollReveal>
+   
     <div className='section-3'>
     </div>
 
+    <ScrollReveal>
+
+ 
     <div className='section-4'>
         <h1>Where Do We Get Our Startups from?</h1>
         <div className='service'>
@@ -120,7 +145,11 @@ export default function Hompage() {
             </div>
         </div>
     </div>
+    </ScrollReveal>
 
+    <ScrollReveal>
+
+    
     <div className='Section-5'>
         <h2>Where Do We Get Our Startups from?</h2>
         <div className='Service-section-2'>
@@ -140,10 +169,9 @@ export default function Hompage() {
                 <h3>04</h3>
                 <span>We are focus on driving Sustainable and Scalable Impact</span>
             </div>
-        </div>
-       
-        
+        </div> 
     </div>
+    </ScrollReveal>
     <DesktopFooter/>
     </div>
     </div>

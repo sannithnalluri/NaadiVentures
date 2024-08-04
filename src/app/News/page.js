@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import './Founders.Module.css';
 import Navmanger from '../GlobalComponents/Navmanger';
@@ -6,6 +7,7 @@ import Image from 'next/image';
 import OrangeFooter from '../GlobalComponents/OrangeFooter';
 import NewVector from "../Assests/Newsvector.svg";
 import founderimages from "../Assests/founderimages.png";
+import StaggeredReveal from '../OurFocus/StaggerdAnimation';
 
 
 export default function Page() {
@@ -45,21 +47,23 @@ export default function Page() {
       <h3>Founder News</h3>
       </div>
       <div className="founder-image-container">
-        <div className="founder-section">
-          <Image src={founderimages}/>
-          <h4>INDUSTRI NEWS</h4>
-          <p>3-day boot camp completed</p>
-        </div>
-        <div className="founder-section">
-          <Image src={founderimages}/>
-          <h4>INDUSTRI NEWS</h4>
-          <p>3-day boot camp completed</p>
-        </div>
-        <div className="founder-section">
-          <Image src={founderimages}/>
-          <h4>INDUSTRI NEWS</h4>
-          <p>3-day boot camp completed</p>
-        </div>
+      <StaggeredReveal>
+      <div>
+        <Image src={founderimages} alt="Focus" />
+        <h4>INDUSTRY NEWS</h4>
+        <p>3-day boot camp completed</p>
+      </div>
+      <div>
+        <Image src={founderimages} alt="Focus" />
+        <h4>INDUSTRY NEWS</h4>
+        <p>3-day boot camp completed</p>
+      </div>
+      <div>
+        <Image src={founderimages} alt="Focus" />
+        <h4>INDUSTRY NEWS</h4>
+        <p>3-day boot camp completed</p>
+      </div>
+    </StaggeredReveal>
       </div>
     </div>
       </div>

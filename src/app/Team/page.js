@@ -1,3 +1,4 @@
+'use client';
 import React from 'react'
 import Navmanger from '../GlobalComponents/Navmanger'
 import OrangeFooter from '../GlobalComponents/OrangeFooter'
@@ -11,6 +12,7 @@ import founder1 from "../Assests/founder1.png";
 import founder2 from "../Assests/founder2.png";
 import founder3 from "../Assests/founder3.png";
 import vector from "../Assests/TeamsVector.png";
+import StaggeredReveal from '../OurFocus/StaggerdAnimation';
 
 export default function page() {
   return (
@@ -21,6 +23,7 @@ export default function page() {
                     <h3>Team</h3>
             </div>
             <h2>Our Team</h2>
+            <StaggeredReveal>
             <div className='Teams-Container'>
                 <div className='Team-member-Container'>
                         <Image src={founder1}/>
@@ -62,6 +65,8 @@ export default function page() {
                     </div>
                 </div>
             </div>
+            </StaggeredReveal>
+            <StaggeredReveal>
             <h2>Advisor</h2>
            
             <div className='Teams-Container2'>
@@ -105,6 +110,7 @@ export default function page() {
                     </div>
                 </div>
             </div>
+        </StaggeredReveal>
             <div className='Vecotor'>
                 <Image src={vector}/>
             </div>
