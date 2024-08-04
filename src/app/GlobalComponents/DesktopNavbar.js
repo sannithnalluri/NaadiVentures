@@ -2,13 +2,14 @@ import Image from 'next/image'
 import React from 'react'
 import "./Desktop.Module.css";
 import Link from 'next/link';
+import mainlogo from "../Assests/mainlogo.png";
 
 export default function DesktopNavbar() {
   return (
     <div>
         <nav className='nav-container'>
             <div className='logo container'>
-                <Image src={require("../Assests/mainlogo.png")} alt='mainlogo'/>
+                <Image src={mainlogo} alt='mainlogo'/>
             </div>
             <div className='nav-links'>
                 <ul>

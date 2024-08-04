@@ -4,6 +4,9 @@ import Image from "next/image";
 import { Button } from "@mui/material";
 import DesktopFooter from "../GlobalComponents/DesktopFooter";
 import OrangeFooter from "../GlobalComponents/OrangeFooter";
+import foucsimages from "../Assests/founderimages.png";
+import foucsimage1 from "../Assests/foucsimage1.jpeg";
+
 
 const OurFocus = () => {
   return (
@@ -16,7 +19,7 @@ const OurFocus = () => {
 
     <div className="focus_content">
         <div className="focus-image1">
-        <Image src={require("../Assests/foucsimage1.jpeg")} />
+        <Image src={foucsimage1} />
         </div>
         <div className="focus-content-1">
           <p>At Naandi Ventures, our primary focus is on investing in
@@ -52,17 +55,17 @@ const OurFocus = () => {
       </div>
       <div className="founder-image-container">
         <div className="founder-section">
-          <Image src={require('../Assests/founderimages.png')}/>
+          <Image src={foucsimages}/>
           <h4>INDUSTRI NEWS</h4>
           <p>3-day boot camp completed</p>
         </div>
         <div className="founder-section">
-          <Image src={require('../Assests/founderimages.png')}/>
+          <Image src={foucsimages}/>
           <h4>INDUSTRI NEWS</h4>
           <p>3-day boot camp completed</p>
         </div>
         <div className="founder-section">
-          <Image src={require('../Assests/founderimages.png')}/>
+          <Image src={foucsimages}/>
           <h4>INDUSTRI NEWS</h4>
           <p>3-day boot camp completed</p>
         </div>

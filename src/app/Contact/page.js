@@ -3,6 +3,7 @@ import Navmanger from '../GlobalComponents/Navmanger'
 import "./Contact.Module.css"
 import Image from 'next/image'
 import OrangeFooter from '../GlobalComponents/OrangeFooter'
+import founderimage from "../Assests/founderimages.png"
 export default function page() {
   return (
     <div className='ContactPage'>
@@ -63,17 +64,17 @@ export default function page() {
       </div>
       <div className="founder-image-container">
         <div className="founder-section">
-          <Image src={require('../Assests/founderimages.png')}/>
+          <Image src={founderimage}/>
           <h4>INDUSTRI NEWS</h4>
           <p>3-day boot camp completed</p>
         </div>
         <div className="founder-section">
-          <Image src={require('../Assests/founderimages.png')}/>
+          <Image src={founderimage}/>
           <h4>INDUSTRI NEWS</h4>
           <p>3-day boot camp completed</p>
         </div>
         <div className="founder-section">
-          <Image src={require('../Assests/founderimages.png')}/>
+          <Image src={founderimage}/>
           <h4>INDUSTRI NEWS</h4>
           <p>3-day boot camp completed</p>
         </div>

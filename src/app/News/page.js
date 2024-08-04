@@ -4,6 +4,9 @@ import Navmanger from '../GlobalComponents/Navmanger';
 import image1 from "../Assests/gridimage1.png"
 import Image from 'next/image';
 import OrangeFooter from '../GlobalComponents/OrangeFooter';
+import NewVector from "../Assests/NewsVector.svg";
+import founderimages from "../Assests/founderimages.png";
+
 
 export default function Page() {
   const items = [
@@ -18,7 +21,7 @@ export default function Page() {
 
   return (
     <div className='FoundersPage'>
-      <Image src={require("../Assests/NewsVector.svg")} className='newsVector'/>
+      <Image src={NewVector} className='newsVector'/>
       <Navmanger />
       <div className='Grid'>
         <div className='new_button'>
@@ -43,17 +46,17 @@ export default function Page() {
       </div>
       <div className="founder-image-container">
         <div className="founder-section">
-          <Image src={require('../Assests/founderimages.png')}/>
+          <Image src={founderimages}/>
           <h4>INDUSTRI NEWS</h4>
           <p>3-day boot camp completed</p>
         </div>
         <div className="founder-section">
-          <Image src={require('../Assests/founderimages.png')}/>
+          <Image src={founderimages}/>
           <h4>INDUSTRI NEWS</h4>
           <p>3-day boot camp completed</p>
         </div>
         <div className="founder-section">
-          <Image src={require('../Assests/founderimages.png')}/>
+          <Image src={founderimages}/>
           <h4>INDUSTRI NEWS</h4>
           <p>3-day boot camp completed</p>
         </div>

@@ -3,6 +3,12 @@ import "./home.Module.css"
 import Navmanger from '../GlobalComponents/Navmanger';
 import Image from 'next/image';
 import DesktopFooter from '../GlobalComponents/DesktopFooter';
+import assest1 from "../Assests/assest-1.jpeg"
+import assest2 from "../Assests/assest-2.png"
+import orangevector from "../Assests/orangevector.png"
+import companpng from "../Assests/company.png"
+
+
 
 export default function Hompage() {
   return (
@@ -41,19 +47,19 @@ export default function Hompage() {
         </div>
 
         <div className='assest1'>
-                    <Image src={require("../Assests/assest-1.jpeg")} 
+                    <Image src={assest1} 
                     alt="Picture of the author"/>
         </div>
     </div>
     <div className='vector'>
-    <Image src={require("../Assests/orangevector.png")} alt='vector-Image'
+    <Image src={orangevector} alt='vector-Image'
      />
     </div>
     <div className='black-section'>
         <div className='black-section-inside'>
 
         <div className='assest2'>
-            <Image src={require("../Assests/assest-2.png")} alt="Picture of the assest"/>
+            <Image src={assest2} alt="Picture of the assest"/>
         </div>
         
         <div className='section-content2'>
@@ -79,35 +85,35 @@ export default function Hompage() {
         <div className='service'>
             <div className='service-component'>
                 <div className='image-component'>
-                    <Image src={require("../Assests/company.png")} alt='university png'/>
+                    <Image src={companpng} alt='university png'/>
                     <h4>University Connectt</h4>
                 </div>
                 <hr className='vertical-line'/>
             </div>
             <div className='service-component'>
                 <div className='image-component'>
-                    <Image src={require("../Assests/company.png")} alt='women png'/>
+                    <Image src={companpng} alt='women png'/>
                     <h4>Women and Minority</h4>
                 </div>
                 <hr className='vertical-line'/>
             </div>
             <div className='service-component'>
                 <div className='image-component'>
-                    <Image src={require("../Assests/company.png")} alt='Incubator png'/>
+                    <Image src={companpng} alt='Incubator png'/>
                     <h4>Incubator Connect</h4>
                 </div>
                 <hr className='vertical-line'/>
             </div>
             <div className='service-component'>
                 <div className='image-component'>
-                    <Image src={require("../Assests/company.png")} alt='Global'/>
+                    <Image src={companpng} alt='Global'/>
                     <h4>Global <br/> Connect</h4>
                 </div>
                 <hr className='vertical-line'/>
             </div>
             <div className='service-component'>
                 <div className='image-component'>
-                    <Image src={require("../Assests/company.png")} alt='Smb'/>
+                    <Image src={companpng} alt='Smb'/>
                     <h4>SMB <br/>Connect</h4>
                 </div>
               

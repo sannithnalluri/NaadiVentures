@@ -3,7 +3,7 @@ import Hompage from "./Pages/Hompage";
 
 export default function Home() {
   return (
-    <main className="">
+    <main >
      <div>
       <Hompage/>
      </div>

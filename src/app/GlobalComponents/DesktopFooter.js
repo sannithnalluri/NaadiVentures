@@ -2,11 +2,17 @@ import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react';
 
+import twitter from "../Assests/Twitter.svg";
+import facebook from "../Assests/Facebook.svg";
+import instagram from "../Assests/Instagram.svg";
+import github from "../Assests/Github.svg";
+import mainlogo from "../Assests/mainlogo.png";
+
 export default function DesktopFooter() {
   return (
     <div className='Desktop-Footer'>
         <div className='footer-logo-container'>
-            <Image src={require("../Assests/mainlogo.png")} alt='logo'/>
+            <Image src={mainlogo} alt='logo'/>
         </div>
         <div className='footer-nav-links'>
             <ul>
@@ -19,10 +25,10 @@ export default function DesktopFooter() {
             </ul>
         </div>
         <div className='footer-social-links'>
-            <Image src={require("../Assests/Twitter.svg")} alt='twitter'/>
-            <Image src={require("../Assests/Facebook.svg")} alt='facebook'/>
-            <Image src={require("../Assests/Instagram.svg")} alt='instagram'/>
-            <Image src={require("../Assests/Github.svg")} alt='github'/>
+            <Image src={twitter} alt='twitter'/>
+            <Image src={facebook} alt='facebook'/>
+            <Image src={instagram} alt='instagram'/>
+            <Image src={github} alt='github'/>
         </div>
     </div>
 

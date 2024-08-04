@@ -2,6 +2,8 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import "./MobileNav.Module.css";
 import Link from 'next/link';
+import mainlogo from "../Assests/mainlogo.png";
+
 
 export default function DesktopNavbar() {
     const [isMenuClicked, setIsMenuClicked] = useState(false);
@@ -10,7 +12,7 @@ export default function DesktopNavbar() {
         <div>
             <nav className={`mobile-container ${isMenuClicked ? 'is-menu-clicked' : ''}`}>
                 <div className='mobile-logo-container'>
-                    <Image src={require("../Assests/mainlogo.png")} alt="Main Logo" />
+                    <Image src={mainlogo} alt="Main Logo" />
                 </div>
                 <div onClick={() => setIsMenuClicked(!isMenuClicked)}>
                     {isMenuClicked ?
